@@ -26,6 +26,16 @@ Current relief operations are often:
 
 ---
 
+## 🛠️ Tech Stack
+- **Frontend:** React / Next.js  
+- **Backend:** Node.js / Express  
+- **Database:** MongoDB / PostgreSQL  
+- **Mapping & Forecast APIs:** OpenStreetMap, Weather/Disaster APIs  
+- **Deployment:** Vercel / Docker (optional)  
+- **Package Manager:** pnpm  
+
+---
+
 ## 💡 Our Solution – **Sahaara**
 Sahaara is a **centralized community-based disaster response platform** that bridges the gap between affected people, NGOs, volunteers, donors, and authorities.
 
@@ -50,34 +60,37 @@ Sahaara is a **centralized community-based disaster response platform** that bri
   - AI + satellite-driven predictive planning  
   - Scaling across multiple geographies and disaster types  
 
----
-
-## 🛠️ Tech Stack
-- **Frontend:** React / Next.js  
-- **Backend:** Node.js / Express  
-- **Database:** MongoDB / PostgreSQL  
-- **Mapping & Forecast APIs:** OpenStreetMap, Weather/Disaster APIs  
-- **Deployment:** Vercel / Docker (optional)  
-- **Package Manager:** pnpm  
 
 ---
 
 ## 🚀 How to Run the Project
 
 ### Prerequisites:
-- Install **pnpm** first:  
+- Install **pnpm** first (for Linux/MacOS):  
   ```bash
   sudo npm install -g pnpm
   ```
+  
+- Install **pnpm** first (for Windows):  
+  ```bash
+  npm install -g pnpm
+  ```
+  
 - Run command:
 ```bash
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
+
 - Then run this:
   ```bash
   pnpm i
   ```
-- Lastyly, run this:
+  
+- Lastly, run this:
   ```bash
   pnpm dev
   ```
+
+
+  ### NOTE: This project is Internet dependent (but can be resolve in future versions).
+   
