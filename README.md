@@ -91,6 +91,9 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
   pnpm dev
   ```
 
+  ---
 
-  ### NOTE: This project is Internet dependent (but can be resolve in future versions).
+  ## Limitations:
+
+This project is Internet dependent (but can be resolve in future versions). With future development → Offline-first system with SMS/IVR/offline apps to reduce internet dependency, making it much more disaster-resilient.
    
